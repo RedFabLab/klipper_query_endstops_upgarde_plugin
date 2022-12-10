@@ -6,7 +6,7 @@
 - *Connect via ssh*
 ```
 cd ~
-git clone https://github.com/RedFabLab/klipper_query_endstops_upgarde_plugin.git
+git clone git@github.com:RedFabLab/klipper_query_endstops_upgarde_plugin.git
 sudo cp ./klipper_query_endstops_upgarde_plugin/query_endstops.py ./klipper/klippy/extras
 ```
 
