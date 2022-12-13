@@ -21,8 +21,7 @@ class QueryEndstops:
         gcode.register_command("M119", self.cmd_QUERY_ENDSTOPS)
 
         ############  NEW NEW NEW NEW NEW NEW ################################
-        gcode.register_command("QUERY_ENDSTOPS_SILENT", self.cmd_QUERY_ENDSTOPS_SILENT,
-                               desc=self.cmd_QUERY_ENDSTOPS_SILENT_help)
+        gcode.register_command("QUERY_ENDSTOPS_SILENT", self.cmd_QUERY_ENDSTOPS_SILENT)
     def register_endstop(self, mcu_endstop, name):
         self.endstops.append((mcu_endstop, name))
     # add only z endstop return
