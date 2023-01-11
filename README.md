@@ -12,7 +12,7 @@ sudo cp ./klipper_query_endstops_upgarde_plugin/query_endstops.py ./klipper/klip
 
 Check instalation:
 ```
-cat ./klipper/klippy/extras/endstop_custom.py
+cat ./klipper/klippy/extras/query_endstops.py
 ```
 
 You shoud get answer:
